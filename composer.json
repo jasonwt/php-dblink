@@ -1,0 +1,19 @@
+{
+    "name": "pctlib/dblink",
+    "description": "PHP Database Link Interface",
+    "type": "library",
+    "require": {
+        "pctlib/enums": "^1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "pctlib\\dblink\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jason Thompson"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "29772cddc7ade753df393b68ea84b017",
+    "packages": [
+        {
+            "name": "pctlib/enums",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jasonwt/php-enums.git",
+                "reference": "60343fd3bd01faa95d103b8bb3ca673620cc0e94"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jasonwt/php-enums/zipball/60343fd3bd01faa95d103b8bb3ca673620cc0e94",
+                "reference": "60343fd3bd01faa95d103b8bb3ca673620cc0e94",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "pctlib\\enums\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jason Thompson"
+                }
+            ],
+            "description": "PHP enums",
+            "support": {
+                "issues": "https://github.com/jasonwt/php-enums/issues",
+                "source": "https://github.com/jasonwt/php-enums/tree/v1.0.0"
+            },
+            "time": "2022-11-09T19:39:39+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}
