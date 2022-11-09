@@ -6,8 +6,8 @@
 
     require_once(__DIR__ . "/../../src/AbstractDatabaseResults.php");        
 
-    use dblink\enums\DatabaseResultsFetchMode;
-    use dblink\AbstractDatabaseResults;
+    use pctlib\dblink\enums\DatabaseResultsFetchMode;
+    use pctlib\dblink\AbstractDatabaseResults;
 
     class TestDatabaseResults extends AbstractDatabaseResults {
         protected $resultsArray = [];

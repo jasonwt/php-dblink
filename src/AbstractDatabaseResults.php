@@ -1,15 +1,15 @@
 <?php
     declare(strict_types=1);
     
-    namespace dblink;
+    namespace pctlib\dblink;
 
     error_reporting(E_ALL);
     ini_set('display_errors', '1');
 
     require_once(__DIR__ . "/interfaces/DatabaseResultsInterface.php");
 
-    use dblink\enums\DatabaseResultsFetchMode;
-    use dblink\interfaces\DatabaseResultsInterface;
+    use pctlib\dblink\enums\DatabaseResultsFetchMode;
+    use pctlib\dblink\interfaces\DatabaseResultsInterface;
 
     abstract class AbstractDatabaseResults implements DatabaseResultsInterface {
 //                        

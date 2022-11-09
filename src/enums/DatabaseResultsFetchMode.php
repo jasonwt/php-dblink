@@ -1,7 +1,7 @@
 <?php
     declare(strict_types=1);
     
-    namespace dblink\enums;
+    namespace pctlib\dblink\enums;
 
     error_reporting(E_ALL);
     ini_set('display_errors', '1');

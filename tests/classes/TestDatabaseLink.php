@@ -9,8 +9,8 @@
 
     require_once(__DIR__ . "/TestDatabaseResults.php");
 
-    use dblink\enums\DatabaseQueryResultsMode;
-    use dblink\AbstractDatabaseLink;
+    use pctlib\dblink\enums\DatabaseQueryResultsMode;
+    use pctlib\dblink\AbstractDatabaseLink;
     
     class TestDatabaseLink extends AbstractDatabaseLink {
         protected int $currentId = 0;

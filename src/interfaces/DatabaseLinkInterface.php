@@ -1,7 +1,7 @@
 <?php
     declare(strict_types=1);
     
-    namespace dblink\interfaces;
+    namespace pctlib\dblink\interfaces;
 
     error_reporting(E_ALL);
     ini_set('display_errors', '1');
@@ -10,7 +10,7 @@
     
     require_once(__DIR__ . "/DatabaseResultsInterface.php");  
     
-    use dblink\enums\DatabaseQueryResultsMode;
+    use pctlib\dblink\enums\DatabaseQueryResultsMode;
     
     const DATABASE_ERRNO_NOT_CONNECTED = -1;
     const DATABASE_ERRNO_SELECT_DATABASE_FAILED = -2;
